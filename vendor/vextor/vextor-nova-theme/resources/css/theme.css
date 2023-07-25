@@ -1,0 +1,160 @@
+:root {
+    --primary: #5d78ff;
+    --primary-dark: rgb(209, 0, 105, 1);
+    --primary-70: rgba(254, 1, 129, 0.7);
+    --primary-50: rgba(254, 1, 129, 0.5);
+    --primary-30: rgba(254, 1, 129, 0.3);
+    --primary-10: rgba(254, 1, 129, 0.1);
+    --logo: #430051;
+    --sidebar-icon: #5d78ff;
+  }
+
+  .bg-grad-sidebar {
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#1e1e2d),
+      to(#1e1e2d)
+    );
+
+    background-image: linear-gradient(
+      0deg,
+      rgb(#1e1e2d),
+      rgb(#1e1e2d)
+    );
+  }
+
+  .bg-logo {
+      background: #1a1a27;
+  }
+
+  .sidebar-icon {
+      color: #494b74;
+  }
+
+  .text-primary {
+      color: #595d6e;
+      font-size:13px;
+  }
+
+  .text-black {
+      color: var(--black);
+      font-size: 13px;
+      line-height: 20px;
+  }
+
+  .text-base {
+      font-size: 0.85rem;
+  }
+
+  .text-sm {
+      font-size: .84rem;
+  }
+
+  .mb-4 {
+      margin-bottom: 0.7rem;
+  }
+
+  .mb-6 {
+      margin-bottom: 0.7rem;
+  }
+
+  /* .text-white {
+      color: #9899ac;
+  } */
+
+  .sidebar-label {
+      color:#a2a3b7!important;
+  }
+
+  .breadcrumbs .breadcrumbs__item a {
+      font-size: 13px;
+  }
+
+  .breadcrumbs {
+      margin-bottom: 20px;
+  }
+
+  .py-view {
+      padding-top: 2.2rem;
+  }
+
+  .text-2xl {
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-bottom: 30px;
+      margin-top: 20px;
+  }
+
+  .btn-default {
+      height: 2.25rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      line-height: 2.25rem;
+      border-radius: .2rem;
+      -webkit-box-shadow: none!important;
+      box-shadow: none!important;
+      font-size: 13px;
+      text-transform: uppercase;
+  }
+
+  .relationship-tabs-panel .tab {
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      text-transform: uppercase;
+      font-size: 13px;
+  }
+
+  .text-80 {
+      color: var(--80);
+      font-size: 13px;
+  }
+
+  .select-none {
+      font-size: 13px;
+  }
+
+  .form-input-bordered {
+      font-size: 14px;
+  }
+
+  .form-select {
+      font-size: 14px;
+  }
+
+  .card {
+      border-radius: .3rem;
+  }
+
+  .el-tree__empty-text {
+      left: 16%!important;
+      text-align:left!important;
+  }
+
+  .custom-tree-node {
+      font-size:13px!important;
+  }
+
+  .el-input {
+      margin-bottom: 20px;
+  }
+
+  .row-delete, .row-move {
+      height: 1.5rem;
+      width: 1.5rem;
+  }
+
+  .font-bold {
+      font-weight: normal;
+  }
+
+  .form-search {
+      background-color: var(--white);
+      border-width: 1px;
+      border-color: var(--60);
+      color: var(--80);
+      border-radius: .3rem;
+      box-shadow: none!important;
+  }

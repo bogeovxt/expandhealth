@@ -1,0 +1,37 @@
+{
+    "name": "norman-huth/nova-menu",
+    "support": {
+        "issues": "https://github.com/Muetze42/nova-menu/issues",
+        "source": "https://github.com/Muetze42/nova-menu",
+        "docs": "https://docs.huth.it/nova-menu"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Norman Huth",
+            "homepage": "https://huth.it"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "laravel/nova": "^4.12.13",
+        "norman-huth/nova-basic-package": "^1.2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "NormanHuth\\NovaMenu\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NormanHuth\\NovaMenu\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

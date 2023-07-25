@@ -1,0 +1,45 @@
+{
+    "name": "nova-kit/nova-packages-tool",
+    "description": "Tool for Laravel Nova Packages Development",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mior Muhammad Zaki",
+            "email": "crynobone@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NovaKit\\NovaPackagesTool\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.3 || ^8.0",
+        "laravel/nova": ">=4.26.5 <4.27.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.24 || ^7.0 || ^8.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NovaKit\\NovaPackagesTool\\LaravelServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "build": [
+            "npm --prefix './vendor/laravel/nova/' ci",
+            "npm ci",
+            "TAILWIND_MODE=build npm run prod"
+        ]
+    },
+    "minimum-stability": "stable"
+}

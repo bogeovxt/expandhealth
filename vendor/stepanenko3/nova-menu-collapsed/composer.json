@@ -1,0 +1,37 @@
+{
+    "name": "stepanenko3/nova-menu-collapsed",
+    "description": "This Laravel Nova package allows you to set menu state collapsed as default",
+    "keywords": [
+        "laravel",
+        "nova",
+        "menu"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "laravel/nova": "^4.0"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../nova"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Stepanenko3\\NovaMenuCollapsed\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Stepanenko3\\NovaMenuCollapsed\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
